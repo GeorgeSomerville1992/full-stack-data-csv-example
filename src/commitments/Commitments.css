@@ -1,0 +1,36 @@
+.totalAmountContainer {
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+
+    button {
+      width: 100%;
+      min-width: 100px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  .selectedAssetClass {
+    background-color: grey;
+  }
+}
+
+.commitmentsTable {
+  width: 100%;
+  border-spacing: 0;
+
+  th {
+    background-color: #EEEEEE;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #F5F5F5;
+  }
+}

@@ -1,0 +1,12 @@
+.investmentsTable {
+  width: 100%;
+  border-spacing: 0;
+
+  th {
+    background-color: #EEEEEE;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #F5F5F5;
+  }
+}
